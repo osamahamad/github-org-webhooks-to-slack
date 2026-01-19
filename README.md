@@ -1,4 +1,4 @@
-# GitHub Org Webhooks to Slack (Cloudflare Worker)
+# GitHub Org Webhooks to Slack 
 
 A small Cloudflare Worker that receives GitHub Organization webhooks, validates the delivery signature (`X-Hub-Signature-256`), applies noise controls, and forwards security-focused notifications to a Slack channel using an Incoming Webhook.
 
