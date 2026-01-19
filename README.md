@@ -236,8 +236,6 @@ Important: do not store sensitive values in `vars`. Use secrets for sensitive in
 
 ## Security notes
 
-- Do not commit secrets to your repo
-- Rotate the GitHub webhook secret if it is ever exposed
 - Keep Slack webhook URLs in Cloudflare secrets
 - Always validate `X-Hub-Signature-256` before processing deliveries
 
@@ -246,9 +244,8 @@ Important: do not store sensitive values in `vars`. Use secrets for sensitive in
 PRs are welcome:
 - Add better per-event formatting
 - Add optional Slack Blocks formatting
-- Add rate limiting and retries
-- Add allowlists for org/repo names (defense in depth)
+
 
 ## License
 
-Choose a license for open source, for example MIT.
+MIT.
